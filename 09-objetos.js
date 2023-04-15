@@ -103,7 +103,7 @@ function retornarComparacion(verdaderoFalso) {
     Mayor : num1 > num2,
     Igual : num1 === num2,
   }
-    return mayorIgual[verdaderoFalso] || "ingrese un Mayor, Menor o igual para verificar";
+    return mayorIgual[verdaderoFalso] || "ingrese la palabra Mayor, Menor o igual para verificar";
 }
 
 console.log(retornarComparacion("Igual"));
