@@ -93,6 +93,23 @@ console.log(buscarElemetoQuimico("CL"));
 console.log(buscarElemetoQuimico("He"));
 console.log(buscarElemetoQuimico("B"));
 
+//** Eje */
+let num1 = 1;
+let num2 = 1;
+
+function retornarComparacion(verdaderoFalso) {
+  const mayorIgual = {
+    Menor : num1 < num2 ,
+    Mayor : num1 > num2,
+    Igual : num1 === num2,
+  }
+  return mayorIgual[verdaderoFalso]
+}
+
+console.log(retornarComparacion("Igual"));
+
+//////////////////////////////////////////////////
+
 //** asignar una propiedad default a un objeto */
 function seleccionarIdioma(valor) {
   const asignarIdioma = {
